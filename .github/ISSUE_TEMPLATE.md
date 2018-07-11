@@ -17,7 +17,7 @@
 
 #### Plugin version
 
-    cordova plugin version | grep phonegap-plugin-barcodescanner
+    cordova plugin version | grep fairmanager-cordova-plugin-barcodescanner
 
 #### Sample Code that illustrates the problem
 

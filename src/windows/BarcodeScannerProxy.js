@@ -158,13 +158,13 @@ BarcodeReader.prototype.init = function (capture, width, height) {
     this._zxingReader = new ZXing.BarcodeReader();
     this._zxingReader.tryHarder = true;
 
-    var formatsList = BarcodeReader.scanCallArgs.args.length > 0 && BarcodeReader.scanCallArgs.args[0].formats;	
-	if (formatsList) {		
+    var formatsList = BarcodeReader.scanCallArgs.args.length > 0 && BarcodeReader.scanCallArgs.args[0].formats;
+	if (formatsList) {
         var possibleFormats = formatsList
             .split(",")
             .map(format => {
                 for (var index in BARCODE_FORMAT) {
-                    if (BARCODE_FORMAT[index] === format) {                        
+                    if (BARCODE_FORMAT[index] === format) {
                         return index;
                     }
                 }
@@ -361,7 +361,7 @@ module.exports = {
 
             // Multiple calls to focusAsync leads to internal focusing hang on some Windows Phone 8.1 devices
             // Also need to wrap in try/catch to avoid crash on Surface 3 - looks like focusState property
-            // somehow is not accessible there. See https://github.com/phonegap/phonegap-plugin-barcodescanner/issues/288
+            // somehow is not accessible there. See https://github.com/phonegap/fairmanager-cordova-plugin-barcodescanner/issues/288
             try {
                 if (controller.focusControl.focusState === Windows.Media.Devices.MediaCaptureFocusState.searching) {
                     return result;

@@ -1,0 +1,41 @@
+{
+	"patch": {
+		"tasks": [
+			{
+				"name": "Bump version",
+				"command": "bump",
+				"args": [
+					"--patch",
+					"--no-commit"
+				],
+				"comment": "[TASK] Bump version"
+			}
+		]
+	},
+	"minor": {
+		"tasks": [
+			{
+				"name": "Bump version",
+				"command": "bump",
+				"args": [
+					"--minor",
+					"--no-commit"
+				],
+				"comment": "[TASK] Bump version"
+			}
+		]
+	},
+	"major": {
+		"tasks": [
+			{
+				"name": "Bump version",
+				"command": "bump",
+				"args": [
+					"--major",
+					"--no-commit"
+				],
+				"comment": "[TASK] Bump version"
+			}
+		]
+	}
+}

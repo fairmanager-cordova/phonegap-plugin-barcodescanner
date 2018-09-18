@@ -1,11 +1,10 @@
-.DS_Store
-bin/
-.classpath
-.project
-.idea
-*.iml
-local.properties
-src/windows/lib/.vs
-src/windows/lib/bin
-src/windows/lib/obj
-node_modules
+# We hate WebStorm now
+.idea/
+
+# npm modules
+node_modules/
+
+# npm/yarn debug output
+debug.log
+package-lock.json
+yarn-error.log

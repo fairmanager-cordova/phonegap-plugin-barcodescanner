@@ -2,19 +2,8 @@
   "name": "fairmanager-cordova-plugin-barcodescanner",
   "version": "8.0.1",
   "description": "You can use the BarcodeScanner plugin to scan different types of barcodes (using the device's camera) and get the metadata encoded in them for processing within your application.",
-  "cordova": {
-    "id": "fairmanager-cordova-plugin-barcodescanner",
-    "platforms": [
-      "ios",
-      "android",
-      "windows",
-      "browser"
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fairmanager-cordova/plugin-barcodescanner.git"
-  },
+  "license": "MIT",
+  "author": "Adobe PhoneGap Team",
   "keywords": [
     "ecosystem:cordova",
     "ecosystem:phonegap",
@@ -24,35 +13,33 @@
     "cordova-browser",
     "cordova:plugin"
   ],
-  "engines": {
-    "cordovaDependencies": {
-      "<7.0.0": {
-        "cordova-android": "<6.3.0"
-      },
-      "7.0.0": {
-        "cordova-android": ">=6.3.0"
-      },
-      "7.1.0": {
-        "cordova-android": ">=6.3.0",
-        "cordova": ">=7.1.0"
-      },
-      "8.0.0": {
-        "cordova-android": ">=6.3.0",
-        "cordova": ">=7.1.0"
-      }
-    }
+  "homepage": "https://github.com/fairmanager-cordova/plugin-barcodescanner",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fairmanager-cordova/plugin-barcodescanner.git"
   },
-  "author": "Adobe PhoneGap Team",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/fairmanager-cordova/plugin-barcodescanner/issues"
   },
-  "homepage": "https://github.com/fairmanager-cordova/plugin-barcodescanner#readme",
+  "cordova": {
+    "id": "fairmanager-cordova-plugin-barcodescanner",
+    "platforms": [
+      "android",
+      "browser",
+      "ios",
+      "windows"
+    ]
+  },
   "scripts": {
     "test": "jasmine-node --color spec"
   },
   "devDependencies": {
+    "eslint": "4.12.0",
+    "eslint-plugin-promise": "3.6.0",
     "jasmine-node": "1.14.5",
     "pluginpub": "^0.0.9"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }

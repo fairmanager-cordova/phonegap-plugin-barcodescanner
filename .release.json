@@ -5,6 +5,7 @@
 				"name": "Bump version",
 				"command": "bump",
 				"args": [
+					"--cordova",
 					"--patch",
 					"--no-commit"
 				],
@@ -18,6 +19,7 @@
 				"name": "Bump version",
 				"command": "bump",
 				"args": [
+					"--cordova",
 					"--minor",
 					"--no-commit"
 				],
@@ -31,6 +33,7 @@
 				"name": "Bump version",
 				"command": "bump",
 				"args": [
+					"--cordova",
 					"--major",
 					"--no-commit"
 				],

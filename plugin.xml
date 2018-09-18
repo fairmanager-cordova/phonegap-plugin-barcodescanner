@@ -15,7 +15,6 @@
 	<engines>
 		<engine name="cordova" version=">=8.0.0"/>
 		<engine name="cordova-android" version=">=7.1.1"/>
-		<engine name="cordova-browser" version=">=5.0.3"/>
 		<engine name="cordova-ios" version=">=4.5.5"/>
 		<engine name="cordova-windows" version=">=6.0.0"/>
 	</engines>

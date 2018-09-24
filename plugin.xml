@@ -26,7 +26,7 @@
 	<platform name="android">
 		<config-file target="res/xml/config.xml" parent="/*">
 			<feature name="BarcodeScanner">
-				<param name="android-package" value="eu.fairmanager.plugins.BarcodeScanner"/>
+				<param name="android-package" value="eu.fairmanager.plugins.barcodescanner.BarcodeScanner"/>
 			</feature>
 		</config-file>
 

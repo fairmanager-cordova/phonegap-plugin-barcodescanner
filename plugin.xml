@@ -64,13 +64,13 @@
 	<platform name="ios">
 		<config-file target="config.xml" parent="/*">
 			<feature name="BarcodeScanner">
-				<param name="ios-package" value="CDVBarcodeScanner"/>
+				<param name="ios-package" value="FMBarcodeScanner"/>
 			</feature>
 		</config-file>
 
 		<resource-file src="src/ios/scannerOverlay.xib"/>
-		<resource-file src="src/ios/CDVBarcodeScanner.bundle"/>
-		<source-file src="src/ios/CDVBarcodeScanner.mm"/>
+		<resource-file src="src/ios/FMBarcodeScanner.bundle"/>
+		<source-file src="src/ios/FMBarcodeScanner.mm"/>
 	</platform>
 
 	<platform name="windows">

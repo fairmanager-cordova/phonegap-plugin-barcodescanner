@@ -6,8 +6,9 @@
  * Copyright (c) 2011, IBM Corporation
  * Copyright (c) 2012-2017, Adobe Systems
  */
-// eslint-disable-next-line no-undef
-const exec = cordova.require( "cordova/exec" );
+
+const cordova = require( "cordova" );
+const exec    = cordova.require( "cordova/exec" );
 
 let scanInProgress = false;
 
@@ -60,7 +61,7 @@ class BarcodeScanner {
 			upc_E : 32768,
 			upc_EAN_EXTENSION : 65536
 		};
-		/* eslint-enable camelcase */
+	/* eslint-enable camelcase */
 	}
 
 	/**

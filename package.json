@@ -37,7 +37,9 @@
     "eslint": "4.12.0",
     "eslint-plugin-promise": "3.6.0",
     "jasmine-node": "1.14.5",
-    "pluginpub": "^0.0.9"
+    "nopt":"4.0.1",
+    "pluginpub": "^0.0.9",
+    "shelljs":"0.8.3"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"

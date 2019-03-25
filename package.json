@@ -1,6 +1,6 @@
 {
   "name": "fairmanager-cordova-plugin-barcodescanner",
-  "version": "8.1.6",
+  "version": "8.2.0",
   "description": "You can use the BarcodeScanner plugin to scan different types of barcodes (using the device's camera) and get the metadata encoded in them for processing within your application.",
   "license": "MIT",
   "author": "Adobe PhoneGap Team",
@@ -37,7 +37,9 @@
     "eslint": "4.12.0",
     "eslint-plugin-promise": "3.6.0",
     "jasmine-node": "1.14.5",
-    "pluginpub": "^0.0.9"
+    "nopt": "4.0.1",
+    "pluginpub": "^0.0.9",
+    "shelljs": "0.8.3"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"

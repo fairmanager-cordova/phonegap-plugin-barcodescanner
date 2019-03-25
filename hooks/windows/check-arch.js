@@ -6,8 +6,8 @@ module.exports = context => {
 	if( context.opts && context.opts.platforms && context.opts.platforms.indexOf( "windows" ) > -1 &&
 		context.opts.options ) {
 		const path  = require( "path" );
-		const shell = context.requireCordovaModule( "shelljs" );
-		const nopt  = context.requireCordovaModule( "nopt" );
+		const shell = require( "shelljs" );
+		const nopt  = require( "nopt" );
 
 		// parse and validate args
 		const args = nopt( {
